@@ -1,0 +1,8 @@
+# serverless-compose.yml
+services:
+  api:
+    path: api
+#   service-b:
+#     path: service-b
+#     If the file is not named "serverless.yml":
+#     config: serverless.api.yml

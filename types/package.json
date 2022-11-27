@@ -1,0 +1,11 @@
+{
+  "name": "otter-types",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
