@@ -1,8 +1,8 @@
-import { message } from "./types";
-import { APIGatewayProxyEvent, APIGatewayProxyResult } from "aws-lambda";
+import { message } from './types';
+import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 
 export const hello = async (
-  event: APIGatewayProxyEvent
+  event: APIGatewayProxyEvent,
 ): Promise<APIGatewayProxyResult> => {
   return {
     statusCode: 200,
@@ -12,7 +12,7 @@ export const hello = async (
         input: event,
       },
       null,
-      2
+      2,
     ),
   };
 };

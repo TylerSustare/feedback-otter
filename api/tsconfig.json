@@ -9,7 +9,7 @@
     "moduleResolution": "node",
     "lib": ["es2015"],
     "rootDir": "./"
-  },
+  }
   // reference and composite for building mono repos doesn't work with sls plugin typescript
-  "references": [{ "path": "../types" }]
+  // "references": [{ "path": "../types" }]
 }
